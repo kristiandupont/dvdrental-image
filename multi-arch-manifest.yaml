@@ -1,0 +1,11 @@
+image: kristiandupont/dvdrental-image:latest
+manifests:
+  - image: kristiandupont/dvdrental-image:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: kristiandupont/dvdrental-image:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
