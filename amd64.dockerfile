@@ -1,4 +1,4 @@
-FROM amd64/postgres:12
+FROM amd64/postgres:16
 
 ENV POSTGRES_USER postgres
 ENV POSTGRES_PASSWORD postgres
